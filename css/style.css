@@ -8,15 +8,24 @@ body {
 
 .header {
     background-color: #1F2937;
-    font-size: 18px;
+    font-size: 24px;
     display: flex;
     flex: 1;
     justify-content: space-evenly;
+    
+}
+
+
+.intro-container {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    flex: 4;
+    justify-content: center;
+    align-items: center;
 }
 
 /*
-.intro-container {}
-
 .info-container {}
 
 .quote-container {}
@@ -36,10 +45,15 @@ body {
 }
 
 a {
-    color: white;
+    color: #F9FAF8;
     text-decoration: none;
 }
 
 .left {
     font-weight: bold;
+}
+
+button {
+    background-color: #3882f6;
+    color:#F9FAF8;
 }
